@@ -13,6 +13,7 @@
 		C168780026EFA0A400B78B7D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C16877FF26EFA0A400B78B7D /* Preview Assets.xcassets */; };
 		C168780B26EFA0A500B78B7D /* CoinFlipTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C168780A26EFA0A500B78B7D /* CoinFlipTests.swift */; };
 		C168781626EFA0A500B78B7D /* CoinFlipUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C168781526EFA0A500B78B7D /* CoinFlipUITests.swift */; };
+		C168782426EFA45C00B78B7D /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C168782326EFA45C00B78B7D /* WebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		C168781126EFA0A500B78B7D /* CoinFlipUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoinFlipUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C168781526EFA0A500B78B7D /* CoinFlipUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinFlipUITests.swift; sourceTree = "<group>"; };
 		C168781726EFA0A500B78B7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C168782326EFA45C00B78B7D /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				C16877FC26EFA0A400B78B7D /* Assets.xcassets */,
 				C168780126EFA0A400B78B7D /* Info.plist */,
 				C16877FE26EFA0A400B78B7D /* Preview Content */,
+				C168782326EFA45C00B78B7D /* WebView.swift */,
 			);
 			path = CoinFlip;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C168782426EFA45C00B78B7D /* WebView.swift in Sources */,
 				C16877FB26EFA0A000B78B7D /* ContentView.swift in Sources */,
 				C16877F926EFA0A000B78B7D /* CoinFlipApp.swift in Sources */,
 			);

@@ -6,11 +6,14 @@
 //
 
 import SwiftUI
+//import WebKit
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView {
+            SwiftUIWebView(url: URL(string: "https://rtblanco.github.io/CoinFlip/"))
+                .navigationTitle("webView")
+        }
     }
 }
 
