@@ -11,7 +11,7 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             SwiftUIWebView(url: URL(string: "https://rtblanco.github.io/CoinFlip/"))
-                .navigationTitle("webView")
+                .navigationTitle("COIN FLIP")
         }
     }
 }
